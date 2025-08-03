@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Worst Rap Bars: YouTube ELO Rankings</title>
+  <link rel="stylesheet" href="pretty.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Worst Rap Bars: ELO Rankings</h1>
+    <div class="match-section">
+      <div id="player1" class="lyric-card"></div>
+      <div id="player2" class="lyric-card"></div>
+      <div class="buttons">
+        <button id="keep-king">Top is Worse</button>
+        <button id="new-king">Bottom is Worse</button>
+      </div>
+    </div>
+    <div class="leaderboard-section">
+      <h2>Leaderboard</h2>
+      <button id="show-leaderboard">Show Rankings</button>
+      <div id="leaderboard" style="display: none;"></div>
+    </div>
+    <h2>Submit a Rap Bar</h2>
+    <form id="uploadForm">
+      <input type="text" id="videoUrl" placeholder="YouTube URL" required />
+      <input type="number" id="timestamp" placeholder="Start time (seconds)" min="0" required />
+      <button type="submit">Submit</button>
+    </form>
+    <p id="status"></p>
+    <script type="module" src="script.js"></script>
+  </div>
+</body>
+</html>

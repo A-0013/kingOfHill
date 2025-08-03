@@ -1,0 +1,39 @@
+
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+/* ...existing code... */
+.lyric-card img {
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/* ...existing code... */
+.buttons button {
+  margin: 1em;
+  padding: 1em 2em;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #666;
+}
